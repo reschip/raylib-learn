@@ -1,0 +1,21 @@
+# === Ejecutables y Binarios ===
+# Ignora el ejecutable que genera tu Makefile
+*.out
+*.exe
+*.app
+app
+
+# === Archivos de Compilación (Objetos) ===
+*.o
+*.obj
+
+# === Configuración del Sistema (macOS) ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Configuración de Editores (Opcional pero recomendado) ===
+.vscode/
+.idea/
+*.suo
+*.user
